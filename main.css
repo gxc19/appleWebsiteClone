@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 100vw;
+    position: absolute;
+    background-color: #0000007c;
+
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+background-image: url("https://www.apple.com/v/home/es/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_largetall.jpg");
+    height: 735px;
+    width: 100vw;
+    background-color: #000000;
+background-position: center;
+
+}
+
+.inner-text {
+    margin-top: 100px;
+}
+
+.miniContainer{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 27px;
+    position: relative;
+}
+
+
+.navName{
+    color: #CCCCCC;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0px 50px;
+}
+
+li a:hover{
+    color: white;
+}
+
+li{
+   float: left;
+   margin-left: 40px; 
+}
+
+ul{
+    list-style-type: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    font-size: 50px;
+}
+
+#title2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: -25px
+
+}
+
+#title3{
+    display: flex;
+    justify-content: center;
+    color: rgb(123, 123, 128);
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: -10px;
+    font-size: 19px;
+}
+
+.miniContainer2{
+    display: flex;
+    justify-content: center;
+    margin-top: -29px;
+}
+
+#title4{
+    color: #2997ff;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 30px; 
+    position: relative;
+}
+
+#title5{
+    color: #2997ff;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 30px;
+    position: relative;
+}
+
+#iPhone11{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+}
+
+.container3{
+    background-image: url("https://www.apple.com/v/home/es/images/heroes/iphone-11/hero__dvsxv8smkkgi_largetall.jpg");
+    background-position: center;
+    height: 735px;
+    width: 100vw;
+    margin-top: 15px
+}
+
+#title6{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    font-size: 50px;
+
+}
+
+#title7{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: -25px
+}
+
+#title8{
+    display: flex;
+    justify-content: center;
+    color: rgb(123, 123, 128);
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: -10px;
+    font-size: 19px;
+
+}
+
+#title9{
+    color: #2997ff;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 30px; 
+    position: relative;
+}
