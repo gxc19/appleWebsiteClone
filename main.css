@@ -39,7 +39,7 @@ background-position: center;
 
 .navName{
     color: #CCCCCC;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     padding: 0px 50px;
 }
 
@@ -54,7 +54,7 @@ li{
 
 ul{
     list-style-type: none;
-    position: -webkit-sticky;
+    position: sticky;
     position: sticky;
     top: 0;
 }
@@ -118,7 +118,7 @@ ul{
 .container3{
     background-image: url("https://www.apple.com/v/home/es/images/heroes/iphone-11/hero__dvsxv8smkkgi_largetall.jpg");
     background-position: center;
-    height: 735px;
+    height: 690px;
     width: 100vw;
     margin-top: 15px
 }
@@ -130,6 +130,7 @@ ul{
     font-family: 'Nunito Sans', sans-serif;
     position: relative;
     font-size: 50px;
+    margin-top: 55px;
 
 }
 
@@ -153,10 +154,293 @@ ul{
 
 }
 
+.miniContainer3{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
 #title9{
     color: #2997ff;
     justify-content: center;
     font-family: 'Nunito Sans', sans-serif;
-    margin-right: 30px; 
+    margin-right: 25px; 
     position: relative;
 }
+
+#title10{
+    color: #2997ff;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 25px;
+    position: relative;
+}
+
+.container4{
+    background-image: url("https://www.apple.com/uk/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_largetall.jpg");
+    background-position: center;
+    height: 700px;
+    width: 100vW;
+    margin-top: 15px;
+}
+
+.watchTitle{
+    background-image: url("https://www.apple.com/v/home/es/images/logos/watch-series-5/logo_hero__trsrpeu6koqy_large.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 209px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#title11{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: 30px
+}
+
+#title12{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    margin-top: -25px
+}
+
+.miniContainer4{
+    display: flex;
+    justify-content: center;
+}
+
+#title13{
+    color: #2997ff;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 25px; 
+    position: relative;
+}
+
+#title14{
+    color: #2997ff;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 25px;
+    position: relative;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.section1{
+    background-image: url("https://www.apple.com/uk/home/images/promos/apple-watch-studio/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-position: center;
+
+}
+
+.section2{
+    background-image: url("https://www.apple.com/v/home/es/images/promos/tv-plus-la/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-position: center;
+
+}
+
+.section3{
+    /* background-image: url("https://www.apple.com/v/home/es/images/promos/airpods-engraving/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat; */
+    background-color: #F9F9F9;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-position: center;
+
+}
+
+.airpods{
+    width: 945px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  display: flex;
+  
+
+}
+
+.section4{
+    background-image: url("https://www.apple.com/v/home/es/images/promos/macbook-pro-16/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    background-color: #F9F9F9;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-position: center;
+
+}
+
+.section5{
+    background-image: url("https://www.apple.com/v/home/es/images/promos/arcade-ultimate/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-position: center;
+
+}
+
+.section6{
+    background-image: url("https://www.apple.com/uk/home/images/promos/ipad/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    height: 624px;
+    width: 945px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-position: center;
+}
+
+.title15{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.title16{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    font-size: 25px;
+}
+
+.title17{
+    color: #2997ff;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.littleAmerica{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+}
+
+.title20{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px
+}
+
+.title21{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.arcade{
+    background-image: url("https://www.apple.com/v/home/es/images/logos/arcade-ultimate/logo__dcojfwkzna2q_large.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 209px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.title22{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.container6{
+    background-color: #F3F3F6;
+    height: 900px;
+    width: 100vw;
+    margin-top: -13px;
+}
+
+.miniContainer6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 430px;
+    margin-right: 430px;
+}
+
+.text{
+    color: #B5B5B9;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.line{
+    height: 100px;
+    width: 400px;
+    color: #B5B5B9;
+}
+
