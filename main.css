@@ -314,31 +314,32 @@ background-position: center;
     margin-right: 5px;
     margin-left: 10px;
     background-position: center;
-
+    position: relative;
 }
 
 .airpods{
+    position: absolute;
     width: 945px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 0;
-  display: flex;
-  
-
+    display: flex;
+    margin-top: 316px;
+    margin-left: auto;
+    display: flex;
+    transform: scale(1.23);
 }
 
 .section4{
-    background-image: url("https://www.apple.com/v/home/es/images/promos/macbook-pro-16/tile__cauwwcyyn9hy_large.jpg");
-    background-repeat: no-repeat;
+    background-position: center;
     background-color: #F9F9F9;
     height: 624px;
     width: 945px;
     margin-top: -10px;
-    margin-right: 10px;
-    margin-left: 5px;
-    background-position: center;
+    position: relative;
+}
 
+.laptop{
+    display: flex;
+    position: absolute;
+    background-position: center;
 }
 
 .section5{
