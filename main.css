@@ -325,21 +325,30 @@ background-position: center;
     margin-left: auto;
     display: flex;
     transform: scale(1.23);
+    object-fit: cover;
+
 }
 
 .section4{
+    display: flex;
+    flex-direction: column;
     background-position: center;
     background-color: #F9F9F9;
     height: 624px;
     width: 945px;
     margin-top: -10px;
+    z-index: 1;
     position: relative;
 }
 
-.laptop{
+.laptop-box{
     display: flex;
+    justify-content: center;
+}
+
+.laptop{
     position: absolute;
-    background-position: center;
+
 }
 
 .section5{
@@ -363,6 +372,10 @@ background-position: center;
     margin-right: 10px;
     margin-left: 5px;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
 }
 
 .title15{
